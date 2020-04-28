@@ -9,7 +9,7 @@
      },
      "PASSWORD": {
        "description": "A password used to encrypt transfer.",
-       "value": "1314926"
+       "value": "jb1314926"
      }
   },
   "stack": "container",
