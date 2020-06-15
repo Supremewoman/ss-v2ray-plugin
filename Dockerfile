@@ -3,7 +3,7 @@ FROM shadowsocks/shadowsocks-libev
 ENV SERVER_ADDR 0.0.0.0
 ENV PORT        8080
 ENV PASSWORD    ss123456
-ENV METHOD      chacha20
+ENV METHOD      aead_chacha20_poly1305
 ENV TIMEOUT     300
 ENV DNS_ADDRS   8.8.8.8,8.8.4.4
 ENV DOMAIN=
